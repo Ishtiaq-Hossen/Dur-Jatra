@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logout-btn {
+    background-color:rgb(209, 207, 207);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+}
+.logout-btn a{
+    color: black;
+    text-decoration: none;
+}
+.bookNow {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+}
+
+
+header {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 20px;
+}
+
+.flash-deal {
+    margin: 20px;
+    border: 1px solid red;
+    border-radius: 10px; 
+    overflow: hidden;
+    width: 70%; 
+    max-width: 400px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+
+.flash-deal img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.deal-info {
+    padding: 15px;
+}
+
+.deal-info h2 {
+    margin-top: 0;
+}
+
+.deal-info p {
+    margin: 5px 0;
+}
+
+.original-price {
+    color: grey;
+}
+
+.discounted-price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: green;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+}
+
+.navbar li a:hover {
+    color: yellow; 
+}
+
+.navbar li a img {
+    width: 25px; 
+    height: 25px; 
+    margin-right: 10px; 
+}
+
+.flash-deals-container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #F5F5F5; 
+    padding: 20px; 
+}
+
+.flash-deals-container h1 {
+    margin-bottom: 1px;
+    font-size: 40px;
+    color: black;
+}
+
+footer {
+    background-color: red; 
+    color: white; 
+    text-align: center;
+    padding: 30px 0; 
+}

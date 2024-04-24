@@ -1,0 +1,82 @@
+/* signupStyle.css */
+
+/* Style for container */
+body{
+    padding: 50px;
+    background-image: url("Back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    padding: 1px 0; 
+    width: 50%;
+    border-radius: 15px;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+  }
+  
+  /* Style for heading */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Style for form inputs */
+  .form-control {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+ 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for submit button */
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style for success alert */
+  .alert-success {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    background-color: #D4EDDA;
+    color: #155724;
+  }
+  
+  /* Style for error alert */
+  .alert-danger {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+    background-color: #FFF3CD;
+    color: #856404;
+  }
+  
+  /* Style for close button in alerts */
+  .close {
+    cursor: pointer;
+  }
+  a{
+    color:white;
+
+  }

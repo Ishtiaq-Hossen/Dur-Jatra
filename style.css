@@ -1,0 +1,83 @@
+/* Style for body */
+body{
+  padding: 50px;
+  color: white;
+  background-image: url("Back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: red;
+  text-align: center;
+  margin: auto;
+  padding: 20px; 
+  width: 50%;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+/* Style for heading */
+h1{
+
+ 
+  text-align: center;
+}
+
+/* Style for form */
+.signin-form {
+ 
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+/* Style for labels */
+.label {
+  font-weight: bold;
+}
+
+/* Style for input fields */
+.user-name,
+.password {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: white;
+  
+}
+
+/* Style for submit button */
+.btn {
+  width: 97%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style for checkbox */
+.checkbox {
+  margin-right: 5px;
+}
+
+/* Style for forgot password link */
+a {
+  color: white;
+}
+
+/* Style for paragraph */
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for link in paragraph */
+p a {
+  text-decoration: underline;
+}
